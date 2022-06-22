@@ -1,0 +1,1 @@
+select* from student where enrollment_number>=(select count(enrollment_number)/2 from student);
