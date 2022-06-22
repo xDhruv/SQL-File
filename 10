@@ -1,0 +1,5 @@
+SELECT course  
+FROM student
+INNER JOIN class
+ON student.name = class.name;
+
